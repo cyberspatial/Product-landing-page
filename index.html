@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="Script/script.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <div id="logo">
+        <img src="Images/pineapple.png" id="header-img" />
+        <a href="#signup" id="fruit">Fruits</a>
+      </div>
+      <nav id="nav-bar">
+        <ul id="nav-list">
+          <li><a href="#feat-page" class="nav-link">Features</a></li>
+          <li><a href="#prod-page" class="nav-link">Products</a></li>
+          <li>
+            <a href="#cont-page" class="nav-link" id="contact">Contact</a>
+          </li>
+          <li>
+            <button id="menubar" onclick="openNav()">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main>
+      <div id="signup-page">
+        <div id="signup-content">
+          <div id="tagline">
+            <h1>We deliver fresh fruits at your doorstep</h1>
+          </div>
+          <div id="card-container">
+            <div id="card">
+ 
+                     <div id="signup">
+                       <div class="hole" id="signup-hole">
+
+                       </div>
+                       <div class=white-container id="signup-white-container">
+                         <div class="order-now" id="signup-order-now">
+                           ORDER NOW
+                         </div>
+                         <div class="account_question" id="signup-account-question">
+                           Already have an account?
+                         </div>
+                         <div class="button-container" id="signinbuttoncontainer">
+                           <button class="button-sign" id="button-sign-in" onclick="flip()">Sign in</button>
+                         </div>
+                        <div class="form-container">
+                          <form class="details-needed" id="signup-form">
+                            <div class="input-container" id="signup-input">
+                              <div class="label-input-size" id="signup-label-input-size">
+                                <label for="signup-email" class="sign-label">
+                                  Email
+                                </label>
+                                <input type="email" required placeholder="Enter your email" id="signup-email" class="input">
+                                <label for="signup-pass" class="sign-label">
+                                  Password
+                                </label>
+                                <input type="password" required placeholder="Password" id="signup-pass" class="input">
+                               
+
+                              </div>
+
+                            </div>
+                            <div class="policy_password" id="policy">
+                              By creating an account you agree to the <a href="#">Terms & Privacy</a>
+                            </div>
+                            <div class="sign-button-container"id="get_started_button_container">
+                              <button class="sign-button" id="button-signup" type="submit">GET STARTED</button>
+                            </div>
+
+
+                          </form>
+
+                        </div>
+
+
+
+
+                       </div>
+
+                     </div>  
+                     <div id="signin">
+                      <div class="hole" id="signin-hole">
+
+                      </div>
+                      <div class=white-container id="signin-white-container">
+                        <div class="order-now" id="signin-order-now">
+                          ORDER NOW
+                        </div>
+                        <div class="account_question" id="signin-account-question">
+                          Didn't have an account?
+                        </div>
+                        <div class="button-container" id="signupbuttoncontainer">
+                          <button class="button-sign" id="button-sign-up" onclick="flipagain()">Sign up</button>
+                        </div>
+
+
+                        <div class="form-container">
+                          <form class="details-needed" id="signin-form">
+                            <div class="input-container" id="signin-input">
+                              <div class="label-input-size" id="signin-label-input-size">
+                                <label for="signin-email" class="sign-label">
+                                  Email
+                                </label>
+                                <input type="email" required placeholder="Enter your email" id="signin-email" class="input">
+                                <label for="signin-pass" class="sign-label">
+                                  Password
+                                </label>
+                                <input type="password" required placeholder="Password" id="signin-pass" class="input">
+
+                              </div>
+                            </div>
+                            <div class="policy_password" id="password">
+                               <a href="#">Forgot Password?</a>
+                            </div>
+                            <div class="sign-button-container"id="login_button_container">
+                              <button class="sign-button" id="button-signin" type="submit">Login</button>
+                            </div>
+
+
+                          </form>
+
+                        </div>
+
+
+                      </div>
+
+
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+     
+
+      <div id="feat-page">
+        <div id="feat-cont">
+          <div id="feat-page-tagline-container">
+            <h1>FEATURES</h1>
+          </div>
+          <div class="slideshow-container">
+            <div class="slide  features disappear">
+              <div class="features-container">
+                <div class="logo-container">
+                  <i class="fa fa-truck" aria-hidden="true" id="logo-items"></i>
+                </div>
+                <div class="feature-explaination">
+                  <h1 class="feat-text-heading">FAST SHIPPING</h1>
+                  <div class="feat-text">
+                    <p class="feat-para">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                     </p>
+                  </div>
+
+                </div>
+
+
+                
+              </div>
+              </div>
+              <div class="slide features disappear">
+
+                <div class="features-container">
+                  <div class="logo-container">
+                    <i class="fa fa-fire" aria-hidden="true" id="logo-items"></i>
+                  </div>
+
+                  <div class="feature-explaination">
+
+
+                    <h1 class="feat-text-heading">PREMIUM</h1>
+                  <div class="feat-text">
+                    <p class="feat-para">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+
+                    </p>
+                  </div>
+ 
+
+                  </div>
+  
+                  
+                </div>
+                 
+               
+              </div>
+              <div class="slide features disappear">
+
+
+                <div class="features-container">
+                  <div class="logo-container">
+                    <i class="fa fa-battery-full" aria-hidden="true" id="logo-items"></i>
+                  </div>
+
+                  <div class="feature-explaination">
+
+                    <h1 class="feat-text-heading">QUALITY ASSURANCE</h1>
+                  <div class="feat-text">
+                    <p class="feat-para">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                     
+
+                    </p>
+                  </div>
+
+                  </div>
+  
+                  
+                </div>
+               
+              </div>
+              <a class="Btn" id="prevBtn" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="Btn" id="nextBtn" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="circle-btn-container">
+              
+              
+              <span class="circle-btn" onclick="currentSlide(1)"></span>
+              <span class="circle-btn" onclick="currentSlide(2)"></span>
+              <span class="circle-btn" onclick="currentSlide(3)"></span>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="prod-page">
+      <div id="prod-content">
+
+        <h1 id="prod-headline">PRODUCTS</h1>
+      <div class="prodSlideshowContainer">
+
+
+          
+        <div class="prod-slide ">
+          <div class="prod-white-container ">
+            <div class="prod-information-container prod-disappear">
+            <div class="prod-fruit-name-container">
+              <h3>APPLE</h3>
+            </div>
+            <div class="prod-image-container">
+              <img src="Images/apple_product.jpg" alt="apple in basket">
+            </div>
+            <div class="prod-rate-container">
+              <p>$00.00</p>
+
+            </div>
+            <div class="prod-atc-buy-container">
+              <button class="atc">ADD TO CART</button>
+              <button class="buy">BUY</button>
+            </div>
+
+            </div>
+          </div>
+
+          
+          </div>
+
+
+          <div class="prod-slide ">
+
+
+
+
+            <div class="prod-white-container">
+              <div class="prod-information-container prod-disappear">
+              <div class="prod-fruit-name-container">
+                <h3>BANANA</h3>
+              </div>
+              <div class="prod-image-container">
+                <img src="Images/banana_in basket.jpg" alt="apple in basket">
+              </div>
+              <div class="prod-rate-container">
+                <p>$00.00</p>
+  
+              </div>
+              <div class="prod-atc-buy-container">
+                <button class="atc">ADD TO CART</button>
+                <button class="buy">BUY</button>
+              </div>
+  
+              </div>
+            </div>
+
+            
+          </div>
+
+
+          <div class="prod-slide ">
+
+
+
+
+
+            <div class="prod-white-container ">
+              <div class="prod-information-container prod-disappear">
+              <div class="prod-fruit-name-container">
+                <h3>STRAWBERRY</h3>
+              </div>
+              <div class="prod-image-container">
+                <img src="Images/strawberry-basket.jpg" alt="apple in basket">
+              </div>
+              <div class="prod-rate-container">
+                <p>$00.00</p>
+  
+              </div>
+              <div class="prod-atc-buy-container">
+                <button class="atc">ADD TO CART</button>
+                <button class="buy">BUY</button>
+              </div>
+  
+              </div>
+            </div>
+            
+          </div>
+          
+        <a  class="Prod-btn"id="prod-prev-Btn" onclick="prodplusslide(-1)">&#10094;</a>
+        <a  class="Prod-btn" id="prod-next-Btn" onclick ="prodplusslide(+1)">&#10095;</a>
+
+
+        </div>
+
+
+        <div class="prod-circle-btn-container">
+        <span class="prod-circle-btn" onclick="prodCurrentSlide(1)"> </span>
+        <span class="prod-circle-btn" onclick="prodCurrentSlide(2)"> </span>
+        <span class="prod-circle-btn" onclick="prodCurrentSlide(3)"></span>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      </div>
+     
+
+      <div id="cont-page">
+
+        <div id="cont-content">
+          <div id="contact-heading">
+            <h1>CONTACT</h1></div>
+
+
+          <div id ="contact-card-container">
+            <div id="contact-card">
+            <div id="cont-front">
+              <div id="front-cont-container">
+                <div id="front-cont-image-container"></div>
+                <button id="get_in_touch" onclick="flipcontactcard()">GET IN TOUCH</button>
+
+              </div>
+
+            </div>
+            <div id="cont-back">
+               <div id="cont-back-container">
+                 <form id ="feedback-form">
+                   <div id="cont-name-email-container">
+                   <label for="cont-name" class="cont-label-inputs">
+                     Name
+                   </label>
+                   <input type="name" id="cont-name" class="cont-inputs" >
+                   <label for="cont-email" class="cont-label-inputs" >
+                      Email
+                  </label>
+                  <input type="email" id="cont-email" class="cont-inputs"  >
+                  <label for ="cont-comment" class="cont-label-inputs"> Any queries or suggestions?</label>
+                  <textarea id="cont-comment" placeholder="Comment..."></textarea>
+                  </div>
+                 
+                  <div id="button-contact-container">
+                    <button type="reset" id="prod-cancel-btn" onclick="flipagaincontact()">CANCEL</button>
+                    <button type="submit" onclick="flipcontactcardagain()" id="submit-comment">SUBMIT</button>
+             
+                  </div>
+                  </form>
+
+
+ 
+               </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <i class="fa fa-copyright" aria-hidden="true"></i>
+      &nbsp;&nbsp;Ravi Pratap Singh
+    </footer>
+
+
+    <div id="full-screen-navigation-link">
+      <div id="white-container">
+        <div id="camera-container">
+          <div id="camera"></div>
+        </div>
+        <div id="speaker">
+          <div id="speaker-texture"></div>
+        </div>
+
+        <div id="link-container">
+          <ul>
+            <li id="Feat">
+              <a href="#feat-page" onclick="closeNav()">Features</a>
+            </li>
+            <li id="Prod">
+              <a href="#prod-page" onclick="closeNav()">Products</a>
+            </li>
+            <li id="Cont">
+              <a href="#cont-page" onclick="closeNav()">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="cross-container">
+          <button id="cross" onclick="closeNav()">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="Script/script.js"></script>
+    <script type="text/javascript" src="Script/tilt.js"></script>
+    <script type="text/javascript">
+       
+        VanillaTilt.init(document.querySelectorAll(".slide"), {
+            max: 10,
+            speed: 50,
+            
+        });
+        VanillaTilt.init(document.querySelectorAll(".prod-slide"), {
+            max: 10,
+            speed: 50,
+            
+        });
+
+     </script>
+    <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+  </body>
+</html>

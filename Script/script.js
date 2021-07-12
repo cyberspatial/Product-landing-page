@@ -95,7 +95,7 @@ function showSlides(n){
   {
     newslides[i].style.display ="none";
   }
-  for(i=0;i<dots.length;i++)
+  for(i=0;i<newdots.length;i++)
   {
     newdots[i].style.backgroundColor="rgba(255,255,255,0.1)";
     newdots[i].style.borderColor="transparent";
@@ -244,7 +244,7 @@ function showprodSlides(n)
   {
     newprodslide[i].style.display ="none";
   }
-  for(i =0;i<proddots.length;i++)
+  for(i =0;i<newproddots.length;i++)
   {
     newproddots[i].style.backgroundColor="rgba(255,255,255,0.1)";
     newproddots[i].style.borderColor="white";

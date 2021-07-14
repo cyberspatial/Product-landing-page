@@ -1244,6 +1244,13 @@ footer {
     padding: 4px;
     box-shadow: 0px 0px 10px black inset;
   }
+  #header #nav-bar #nav-list .nav-link:focus {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 0px 0px 10px black inset;
+  }
 
   #header #nav-bar #nav-list #menubar {
     display: none;

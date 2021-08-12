@@ -1789,3 +1789,35 @@ footer {
     font-size: 1.5em;
   }
 }
+@media only screen and (max-height: 500px) {
+  #full-screen-navigation-link #white-container #cross-container #cross {
+    font-size: 1em;
+    background-color: inherit;
+  }
+  #header {
+    position: static;
+  }
+
+  main {
+    position: static;
+    scroll-snap-type: none;
+    height: auto;
+  }
+  main #signup-page {
+    height: 500px;
+  }
+
+  main #feat-page {
+    height: 600px;
+  }
+  main #prod-page {
+    height: 600px;
+  }
+  main #cont-page {
+    height: 600px;
+  }
+  footer {
+    position: static;
+    margin-top: none;
+  }
+}

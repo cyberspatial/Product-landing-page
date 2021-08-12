@@ -1182,7 +1182,7 @@ footer {
   background: #b30000;
 }
 
-@media only screen and (max-height: 500px) {
+@media only screen and (max-height: 600px) {
   #full-screen-navigation-link #white-container #cross-container #cross {
     font-size: 1em;
     background-color: inherit;
